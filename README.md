@@ -1,4 +1,6 @@
 # lyceum-lesson1
+![main workflow](https://github.com/makstetoro3/lyceum-lesson1/.github/workflows/python-package.yml/badge.svg)
+``
 
 ## Активация виртуального окружения
 ```bash
