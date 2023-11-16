@@ -1,16 +1,16 @@
 # lyceum-lesson1
-![main workflow](https://github.com/makstetoro3/lyceum-lesson1/.github/workflows/python-package.yml/badge.svg)
+![main workflow](https://github.com/makstetoro3/lyceum-lesson1/actions/workflows/python-package.yml/badge.svg)
 ``
 
 ## Активация виртуального окружения
 ```bash
-python -m venv venv
-venv/Scripts/activate
+python3 -m venv venv
+source venv/Scripts/activate
 ```
 
 ## Установка зависимостей 
 ```bash
-pip install -r requirements/prod.txt
+pip3 install -r requirements/prod.txt
 ```
 
 ## Установка зависимостей для разработки
@@ -31,5 +31,5 @@ cp confing.env .env
 
 ## Запуск
 ```commandline
-python manage.py runserver
+python3 manage.py runserver
 ```
